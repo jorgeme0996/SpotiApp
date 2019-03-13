@@ -1,3 +1,27 @@
-p {
+input.searchInput {
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid white;
     color: white;
+    background-color: black;
+    outline: none;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+label {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+div#contSongCard {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.song-card {
+    max-width: 300px;
+    margin-bottom: 20px; 
 }

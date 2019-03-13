@@ -1,3 +1,11 @@
-<p>
-    Home works
-</p>
+<div id="contSongCard">
+    <mat-card class="song-card" *ngFor="let song of newSongs">
+        <mat-card-header>
+        <mat-card-title>{{song.name}}</mat-card-title>
+        <mat-card-subtitle>
+            <p *ngFor="let artist of song.artists">{{artist.name}}</p>
+        </mat-card-subtitle>
+        </mat-card-header>
+        <img mat-card-image [src]="song.images[0].url">
+    </mat-card>
+</div>
