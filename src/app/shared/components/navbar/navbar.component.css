@@ -1,0 +1,30 @@
+nav{
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+div#links{
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-around;
+}
+
+div#imgText {
+    display: flex;
+    align-items: flex-start;
+}
+
+img {
+    height: 50px;
+    width: 50px;
+}
+
+.active{
+    color: gray;
+}
