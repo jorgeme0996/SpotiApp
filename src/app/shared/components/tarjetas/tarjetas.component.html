@@ -1,0 +1,11 @@
+<div id="contSongCard">
+  <mat-card class="song-card" *ngFor="let item of items">
+      <mat-card-header>
+      <mat-card-title>{{item.name}}</mat-card-title>
+      <mat-card-subtitle>
+          <p *ngFor="let artist of item.artists">{{artist.name}}</p>
+      </mat-card-subtitle>
+      </mat-card-header>
+      <img mat-card-image [src]="item.images | noimage">
+  </mat-card>
+</div>

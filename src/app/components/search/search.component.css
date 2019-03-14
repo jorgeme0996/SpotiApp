@@ -13,15 +13,3 @@ label {
     font-weight: bold;
     font-size: 40px;
 }
-
-div#contSongCard {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin-top: 20px;
-}
-
-.song-card {
-    max-width: 300px;
-    margin-bottom: 20px; 
-}
