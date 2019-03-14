@@ -22,6 +22,7 @@ import { SpotifyService } from './services/spotify.service';
 import { NoimagePipe } from './pipes/noimage.pipe';
 import { TarjetasComponent } from './shared/components/tarjetas/tarjetas.component';
 import { LoaderComponent } from './shared/components/loader/loader.component';
+import { ArtistaComponent } from './components/artista/artista.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { LoaderComponent } from './shared/components/loader/loader.component';
     NotfoundComponent,
     NoimagePipe,
     TarjetasComponent,
-    LoaderComponent
+    LoaderComponent,
+    ArtistaComponent
   ],
   imports: [
     BrowserModule,

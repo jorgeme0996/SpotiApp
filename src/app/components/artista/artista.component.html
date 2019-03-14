@@ -1,0 +1,10 @@
+<div class="contArtistCard">
+  <h1>{{artista.name}}</h1>
+
+  <div class="contInfoArtista">
+    <img [src]="artista.images | noimage" alt="">
+    <h3 *ngFor="let genres of artista.genres">{{genres}}</h3>
+  </div>
+  
+</div>
+

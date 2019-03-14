@@ -1,4 +1,5 @@
 <label for="searchInput">Search</label>
 <input  #searchText type="text" class="searchInput" (keyup)="search(searchText.value)" placeholder="Type your search...">
 
-<app-tarjetas [items]="artists"></app-tarjetas>
+<app-loader *ngIf="loading"></app-loader>
+<app-tarjetas *ngIf="!loading" [items]="artists"></app-tarjetas>

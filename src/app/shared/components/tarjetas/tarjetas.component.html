@@ -1,5 +1,5 @@
-<div id="contSongCard">
-  <mat-card class="song-card" *ngFor="let item of items">
+<div id="contSongCard" class="animated fadeIn puntero">
+  <mat-card  (click)="viewArtist(item)" class="song-card" *ngFor="let item of items">
       <mat-card-header>
       <mat-card-title>{{item.name}}</mat-card-title>
       <mat-card-subtitle>
